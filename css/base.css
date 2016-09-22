@@ -7,6 +7,9 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 
+    font-size: .625em; /* fallback IE8+ */
+    font-size: calc(1em * .625); /* IE9-IE11 math fixing. See http://bit.ly/1g4X0bX */
+
     box-sizing: border-box;
 }
 *, *:before, *:after {
@@ -15,9 +18,13 @@ html {
 
 body {
     margin: 0;
-    font: 62.5%/1.5 sans-serif;
+
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+
+    font-family: sans-serif;
+    font-size: 1.6em; /* base font-size is equivalent "16px" */
+    line-height: 1.5;
 }
 h1,
 h2,

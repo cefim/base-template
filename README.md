@@ -7,7 +7,7 @@ Le fichier css/base.css, devrait éviter les problèmes récurrents des ```reset
 
 [FORGET NORMALIZE OR RESETS; LAY YOUR OWN CSS FOUNDATION](http://jaydenseric.com/blog/forget-normalize-or-resets-lay-your-own-css-foundation).
 
-Comme conseillé par l'auteur, on rajoute les fondations qu'on juge indispensable:
+Comme conseillé par l'auteur, on rajoute les fondations qu'on juge indispensables:
 * utilisation du modèle de boite **border-box**
 * images et médias responsive
 * taille de caractères de base à 62.5% de la taille par défaut, pour simplifier la conversion **px** vers **em**.
