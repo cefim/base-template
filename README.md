@@ -10,7 +10,7 @@ Le fichier css/base.css, devrait éviter les problèmes récurrents des ```reset
 Comme conseillé par l'auteur, on rajoute les fondations qu'on juge indispensables:
 * utilisation du modèle de boite **border-box**
 * images et médias responsive
-* taille de caractères de base à 62.5% de la taille par défaut, pour simplifier la conversion **px** vers **em**.
+* taille de caractères de base à 62.5% de la taille par défaut, pour simplifier la conversion **px** vers **rem**.
 
 ## Liens
 * [* { Box-sizing: Border-box } FTW](http://www.paulirish.com/2012/box-sizing-border-box-ftw/)
