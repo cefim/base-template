@@ -74,7 +74,6 @@ button {
 }
 
 img, object, embed, canvas, video, audio, picture{
-    max-width: 100%;
-    height: auto;
+ 
     border: 0;
 }
